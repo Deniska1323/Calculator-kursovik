@@ -5,7 +5,8 @@
 using namespace std;
 
 
-string Clear()
+string Clear(string s)
 {
-	return "0";
+	s.clear();
+	return s;
 }
