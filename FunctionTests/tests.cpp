@@ -105,37 +105,37 @@ TEST(TestDivFloat, TestNegative) {
 	ASSERT_DOUBLE_EQ(-2604.954, Div(20459598.15243894, -7854.11111));
 }
 
-TEST(TestRoot, TestInt) {
+TEST(TestSqrt, TestInt) {
 	ASSERT_EQ(2, Sqrt(4));
 	ASSERT_EQ(268, Sqrt(71824));
 	ASSERT_EQ(92492, Sqrt(8554770064));
 }
 
-TEST(TestRoot, TestFloat) {
+TEST(TestSqrt, TestFloat) {
 	ASSERT_DOUBLE_EQ(0.008, Sqrt(0.000064));
 	ASSERT_DOUBLE_EQ(245.332, Sqrt(60187.790224));
 	ASSERT_DOUBLE_EQ(989637.0187, Sqrt(979381428781.4241));
 }
 
-TEST(TestExponInt, TestPozitive) {
+TEST(TestSqrInt, TestPozitive) {
 	ASSERT_EQ(1, Sqr(1));
 	ASSERT_EQ(841, Sqr(29));
 	ASSERT_EQ(8549406369, Sqr(92463));
 }
 
-TEST(TestExponInt, TestNegative) {
+TEST(TestSqrInt, TestNegative) {
 	ASSERT_EQ(36, Sqr(-6));
 	ASSERT_EQ(60516, Sqr(-246));
 	ASSERT_EQ(133577092324, Sqr(-365482));
 }
 
-TEST(TestExponFloat, TestPozitive) {
+TEST(TestSqrFloat, TestPozitive) {
 	ASSERT_DOUBLE_EQ(0.00008836, Sqr(0.0094));
 	ASSERT_DOUBLE_EQ(1093.32067716, Sqr(33.0654));
 	ASSERT_DOUBLE_EQ(340545485533.4848, Sqr(583562.75201));
 }
 
-TEST(TestExponFloat, TestNegative) {
+TEST(TestSqrFloat, TestNegative) {
 	ASSERT_DOUBLE_EQ(1.110922324009, Sqr(-1.054003));
 	ASSERT_DOUBLE_EQ(2116.5051101401, Sqr(-46.00549));
 	ASSERT_DOUBLE_EQ(511527665674.29419, Sqr(-715211.623));
