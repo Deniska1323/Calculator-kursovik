@@ -10,9 +10,9 @@ double Multi(double, double);
 
 double Div(double, double);
 
-double Root(double);
+double Sqrt(double);
 
-double Expon(double);
+double Sqr(double);
 
 std::string Clear();
 
