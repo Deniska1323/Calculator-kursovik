@@ -1,0 +1,13 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+configuration: Debug
+platform: x86
+before_build:
+  - nuget restore
+build:
+  verbosity: minimal
+test_script:
+  - '%APPVEYOR_BUILD_FOLDER%\%CONFIGURATION%\TestFunctions.exe'
+  - '%APPVEYOR_BUILD_FOLDER%\%CONFIGURATION%\TestGetNum.exe'
+  - '%APPVEYOR_BUILD_FOLDER%\%CONFIGURATION%\TestParsed.exe'
+  - '%APPVEYOR_BUILD_FOLDER%\%CONFIGURATION%\TestReplace.exe'
