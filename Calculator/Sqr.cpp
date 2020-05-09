@@ -2,7 +2,7 @@
 #include "IncludeGuards.h"
 #include <math.h>
 
-double Expon(double a)
+double Sqr(double a)
 {
 	return pow(a, 2);
 } 

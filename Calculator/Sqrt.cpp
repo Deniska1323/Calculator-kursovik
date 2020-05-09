@@ -2,7 +2,7 @@
 #include "IncludeGuards.h"
 #include <math.h>
 
-double Root(double a)
+double Sqrt(double a)
 {
 	return sqrt(a);
 } 
