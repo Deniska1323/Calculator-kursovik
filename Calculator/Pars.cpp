@@ -90,7 +90,7 @@ string parse(string s)
 				break;
 			}
 			else
-				n = replace(s, n - 3, i - 1, Root(second));//курсор на последний символ результата операции
+				n = replace(s, n - 3, i - 1, Sqrt(second));//курсор на последний символ результата операции
 		}
 	}
 
@@ -106,7 +106,7 @@ string parse(string s)
 			else
 				first = getfirnum(s, n, j);
 
-			n = replace(s, j + 1, n, Expon(first));//курсор на последний символ результата операции
+			n = replace(s, j + 1, n, Sqr(first));//курсор на последний символ результата операции
 		}
 	}
 
