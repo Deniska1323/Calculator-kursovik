@@ -1,0 +1,19 @@
+﻿  pch.cpp
+  Calculator.cpp
+  Check.cpp
+  Clear.cpp
+  Delete.cpp
+  Diff.cpp
+  Div.cpp
+  Sqr.cpp
+  GetFirNum.cpp
+  GetSecNum.cpp
+  Multi.cpp
+  Pars.cpp
+  Replace.cpp
+c:\calculator-kursovik\calculator\replace.cpp(12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+c:\calculator-kursovik\calculator\replace.cpp(21): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  Sqrt.cpp
+  Sum.cpp
+  Создание кода...
+  Calculator.vcxproj -> C:\Calculator-kursovik\x64\Debug\Calculator.exe
